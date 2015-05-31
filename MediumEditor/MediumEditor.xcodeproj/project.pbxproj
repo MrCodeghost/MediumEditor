@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		094AAA791B1202E600079CC9 /* AttributedTextStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094AAA781B1202E600079CC9 /* AttributedTextStorage.swift */; };
-		094AAA7E1B1A480700079CC9 /* MediumEditorViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094AAA7D1B1A480700079CC9 /* MediumEditorViewControllerDelegate.swift */; };
+		094AAA801B1B65D700079CC9 /* MediumEditorViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094AAA7F1B1B65D700079CC9 /* MediumEditorViewControllerDelegate.swift */; };
 		0994EB621B110BBF006E4A44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0994EB611B110BBF006E4A44 /* AppDelegate.swift */; };
 		0994EB641B110BBF006E4A44 /* MediumEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0994EB631B110BBF006E4A44 /* MediumEditorViewController.swift */; };
 		0994EB671B110BBF006E4A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0994EB651B110BBF006E4A44 /* Main.storyboard */; };
@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		094AAA781B1202E600079CC9 /* AttributedTextStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedTextStorage.swift; sourceTree = "<group>"; };
-		094AAA7D1B1A480700079CC9 /* MediumEditorViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumEditorViewControllerDelegate.swift; sourceTree = SOURCE_ROOT; };
+		094AAA7F1B1B65D700079CC9 /* MediumEditorViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumEditorViewControllerDelegate.swift; sourceTree = "<group>"; };
 		0994EB5C1B110BBF006E4A44 /* MediumEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediumEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0994EB601B110BBF006E4A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0994EB611B110BBF006E4A44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 				0994EB611B110BBF006E4A44 /* AppDelegate.swift */,
 				094AAA781B1202E600079CC9 /* AttributedTextStorage.swift */,
 				0994EB631B110BBF006E4A44 /* MediumEditorViewController.swift */,
-				094AAA7D1B1A480700079CC9 /* MediumEditorViewControllerDelegate.swift */,
+				094AAA7F1B1B65D700079CC9 /* MediumEditorViewControllerDelegate.swift */,
 				0994EB651B110BBF006E4A44 /* Main.storyboard */,
 				0994EB681B110BBF006E4A44 /* Images.xcassets */,
 				0994EB6A1B110BBF006E4A44 /* LaunchScreen.xib */,
@@ -218,8 +218,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				094AAA801B1B65D700079CC9 /* MediumEditorViewControllerDelegate.swift in Sources */,
 				0994EB641B110BBF006E4A44 /* MediumEditorViewController.swift in Sources */,
-				094AAA7E1B1A480700079CC9 /* MediumEditorViewControllerDelegate.swift in Sources */,
 				0994EB621B110BBF006E4A44 /* AppDelegate.swift in Sources */,
 				094AAA791B1202E600079CC9 /* AttributedTextStorage.swift in Sources */,
 			);
