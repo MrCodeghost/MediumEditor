@@ -31,7 +31,6 @@ import UIKit
     var view: UIView!
     
     override func layoutSubviews() {
-//        textView.frame = textViewPlaceholder.frame
         textView.frame = CGRectMake(view.frame.origin.x, view.frame.origin.y + topToolbar.frame.size.height, view.frame.width, view.frame.height - (topToolbar.frame.size.height + bottomToolbar.frame.size.height))
         bottomToolbar.frame = CGRectMake(self.view.frame.origin.x, self.view.frame.height - bottomToolbar.frame.height, self.view.bounds.width, bottomToolbar.frame.height)
     }
@@ -105,8 +104,7 @@ import UIKit
         let keyboardSize: CGSize = value.CGRectValue().size
         
         self.view.frame = CGRectMake(0, 0, self.view.bounds.width, self.view.bounds.height - keyboardSize.height)
-        textView.frame = CGRectMake(view.frame.origin.x, view.frame.origin.y + topToolbar.frame.size.height, view.frame.width, view.frame.height - (topToolbar.frame.size.height + bottomToolbar.frame.size.height))
-        bottomToolbar.frame = CGRectMake(self.view.frame.origin.x, self.view.frame.height - bottomToolbar.frame.height, self.view.bounds.width, bottomToolbar.frame.height)
+        self.layoutSubviews()
     }
     
     func keyboardWillHide(sender: NSNotification) {
@@ -114,7 +112,7 @@ import UIKit
         let value: NSValue = info.valueForKey(UIKeyboardFrameBeginUserInfoKey) as! NSValue
         let keyboardSize: CGSize = value.CGRectValue().size
         view.frame = CGRectMake(0, 0, view.bounds.width, view.bounds.height + keyboardSize.height)
-        textView.frame = CGRectMake(view.frame.origin.x, view.frame.origin.y + topToolbar.frame.size.height, view.frame.width, view.frame.height - (topToolbar.frame.size.height + bottomToolbar.frame.size.height))
+        self.layoutSubviews()
     }
     
     func preferredContentSizeChanged(sender: NSNotification) {
