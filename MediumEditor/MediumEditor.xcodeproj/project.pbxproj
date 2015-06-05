@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0900965A1B21A867001C608E /* Demo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090096591B21A867001C608E /* Demo.storyboard */; };
+		0900965E1B21A8F3001C608E /* MediumEditorDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0900965B1B21A896001C608E /* MediumEditorDemo-Info.plist */; };
 		094AAA791B1202E600079CC9 /* AttributedTextStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094AAA781B1202E600079CC9 /* AttributedTextStorage.swift */; };
 		094AAA801B1B65D700079CC9 /* MediumEditorViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094AAA7F1B1B65D700079CC9 /* MediumEditorViewControllerDelegate.swift */; };
 		094AAA9C1B1BAA6B00079CC9 /* MediumEditorViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094AAA7F1B1B65D700079CC9 /* MediumEditorViewControllerDelegate.swift */; };
 		094AAA9D1B1BAA6B00079CC9 /* MediumEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0994EB631B110BBF006E4A44 /* MediumEditorViewController.swift */; };
 		094AAA9E1B1BAA6B00079CC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0994EB611B110BBF006E4A44 /* AppDelegate.swift */; };
 		094AAA9F1B1BAA6B00079CC9 /* AttributedTextStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094AAA781B1202E600079CC9 /* AttributedTextStorage.swift */; };
-		094AAAA31B1BAA6B00079CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0994EB651B110BBF006E4A44 /* Main.storyboard */; };
 		094AAAA51B1BAA6B00079CC9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0994EB6A1B110BBF006E4A44 /* LaunchScreen.xib */; };
 		094AAAA61B1BAA6B00079CC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0994EB681B110BBF006E4A44 /* Images.xcassets */; };
-		094AAAAD1B1BAAA800079CC9 /* Demo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094AAAAC1B1BAAA800079CC9 /* Demo.storyboard */; };
 		0994EB621B110BBF006E4A44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0994EB611B110BBF006E4A44 /* AppDelegate.swift */; };
 		0994EB641B110BBF006E4A44 /* MediumEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0994EB631B110BBF006E4A44 /* MediumEditorViewController.swift */; };
 		0994EB671B110BBF006E4A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0994EB651B110BBF006E4A44 /* Main.storyboard */; };
@@ -41,11 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		090096591B21A867001C608E /* Demo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Demo.storyboard; path = MediumEditor/Demo.storyboard; sourceTree = "<group>"; };
+		0900965B1B21A896001C608E /* MediumEditorDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "MediumEditorDemo-Info.plist"; path = "MediumEditor/MediumEditorDemo-Info.plist"; sourceTree = "<group>"; };
 		094AAA781B1202E600079CC9 /* AttributedTextStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedTextStorage.swift; sourceTree = "<group>"; };
 		094AAA7F1B1B65D700079CC9 /* MediumEditorViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumEditorViewControllerDelegate.swift; sourceTree = "<group>"; };
 		094AAAAA1B1BAA6B00079CC9 /* MediumEditorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediumEditorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		094AAAAB1B1BAA6B00079CC9 /* MediumEditorDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MediumEditorDemo-Info.plist"; path = "/Users/matthewbain/Dropbox/Codeghost/Development/git/atlassian/MediumEditor/MediumEditor/MediumEditorDemo-Info.plist"; sourceTree = "<absolute>"; };
-		094AAAAC1B1BAAA800079CC9 /* Demo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Demo.storyboard; sourceTree = "<group>"; };
 		0994EB5C1B110BBF006E4A44 /* MediumEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediumEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0994EB601B110BBF006E4A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0994EB611B110BBF006E4A44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,7 +88,8 @@
 		094AAA911B1B8ABF00079CC9 /* MediumEditorDemo */ = {
 			isa = PBXGroup;
 			children = (
-				094AAAAC1B1BAAA800079CC9 /* Demo.storyboard */,
+				0900965B1B21A896001C608E /* MediumEditorDemo-Info.plist */,
+				090096591B21A867001C608E /* Demo.storyboard */,
 			);
 			name = MediumEditorDemo;
 			sourceTree = "<group>";
@@ -100,7 +101,6 @@
 				0994EB741B110BBF006E4A44 /* MediumEditorTests */,
 				094AAA911B1B8ABF00079CC9 /* MediumEditorDemo */,
 				0994EB5D1B110BBF006E4A44 /* Products */,
-				094AAAAB1B1BAA6B00079CC9 /* MediumEditorDemo-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -254,8 +254,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				094AAAA31B1BAA6B00079CC9 /* Main.storyboard in Resources */,
-				094AAAAD1B1BAAA800079CC9 /* Demo.storyboard in Resources */,
 				094AAAA51B1BAA6B00079CC9 /* LaunchScreen.xib in Resources */,
 				09B1783B1B1E52FA0035D00C /* MediumEditorView.xib in Resources */,
 				094AAAA61B1BAA6B00079CC9 /* Images.xcassets in Resources */,
@@ -266,8 +264,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0900965E1B21A8F3001C608E /* MediumEditorDemo-Info.plist in Resources */,
 				09B1783A1B1E52FA0035D00C /* MediumEditorView.xib in Resources */,
 				0994EB671B110BBF006E4A44 /* Main.storyboard in Resources */,
+				0900965A1B21A867001C608E /* Demo.storyboard in Resources */,
 				0994EB6C1B110BBF006E4A44 /* LaunchScreen.xib in Resources */,
 				0994EB691B110BBF006E4A44 /* Images.xcassets in Resources */,
 			);
@@ -350,7 +350,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "MediumEditorDemo-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MediumEditor/MediumEditorDemo-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = MediumEditorDemo;
 			};
@@ -360,7 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "MediumEditorDemo-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/MediumEditor/MediumEditorDemo-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = MediumEditorDemo;
 			};

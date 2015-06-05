@@ -83,17 +83,16 @@
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="2Db-YI-BZr" firstAttribute="trailing" secondItem="TKb-r9-BCP" secondAttribute="trailing" id="47L-FQ-7PQ"/>
-                <constraint firstAttribute="bottom" secondItem="2Db-YI-BZr" secondAttribute="bottom" id="D3y-DU-TBd"/>
-                <constraint firstItem="2Db-YI-BZr" firstAttribute="leading" secondItem="EUr-5u-Jlg" secondAttribute="leading" id="HqR-Gs-meA"/>
-                <constraint firstItem="2Db-YI-BZr" firstAttribute="trailing" secondItem="9yl-UG-tEc" secondAttribute="trailing" id="K3E-dE-oI0"/>
-                <constraint firstItem="2Db-YI-BZr" firstAttribute="top" secondItem="9yl-UG-tEc" secondAttribute="bottom" id="Y8A-EZ-z1R"/>
-                <constraint firstItem="2Db-YI-BZr" firstAttribute="leading" secondItem="TKb-r9-BCP" secondAttribute="leading" id="hWk-fa-TN5"/>
-                <constraint firstItem="2Db-YI-BZr" firstAttribute="leading" secondItem="9yl-UG-tEc" secondAttribute="leading" id="hiL-x4-eKw"/>
-                <constraint firstItem="TKb-r9-BCP" firstAttribute="top" secondItem="EUr-5u-Jlg" secondAttribute="top" id="kKk-Ta-ABk"/>
-                <constraint firstItem="TKb-r9-BCP" firstAttribute="bottom" secondItem="9yl-UG-tEc" secondAttribute="top" id="nMS-Qz-bdq"/>
-                <constraint firstItem="2Db-YI-BZr" firstAttribute="top" secondItem="9yl-UG-tEc" secondAttribute="bottom" id="qqg-Ps-sk5"/>
-                <constraint firstAttribute="trailing" secondItem="2Db-YI-BZr" secondAttribute="trailing" id="wjb-iA-KHD"/>
+                <constraint firstAttribute="trailing" secondItem="TKb-r9-BCP" secondAttribute="trailing" id="07h-WM-W07"/>
+                <constraint firstItem="TKb-r9-BCP" firstAttribute="top" secondItem="EUr-5u-Jlg" secondAttribute="top" id="FW3-eN-cPo"/>
+                <constraint firstItem="9yl-UG-tEc" firstAttribute="leading" secondItem="EUr-5u-Jlg" secondAttribute="leading" id="J1o-HB-pDQ"/>
+                <constraint firstItem="9yl-UG-tEc" firstAttribute="top" secondItem="TKb-r9-BCP" secondAttribute="bottom" id="T4Y-83-h0K"/>
+                <constraint firstAttribute="bottom" secondItem="2Db-YI-BZr" secondAttribute="bottom" id="Uec-Kb-fPN"/>
+                <constraint firstItem="2Db-YI-BZr" firstAttribute="leading" secondItem="EUr-5u-Jlg" secondAttribute="leading" id="egD-Sv-GXj"/>
+                <constraint firstAttribute="trailing" secondItem="2Db-YI-BZr" secondAttribute="trailing" id="jkx-VM-nbF"/>
+                <constraint firstItem="2Db-YI-BZr" firstAttribute="top" secondItem="9yl-UG-tEc" secondAttribute="bottom" id="kEM-SA-8PW"/>
+                <constraint firstItem="TKb-r9-BCP" firstAttribute="leading" secondItem="EUr-5u-Jlg" secondAttribute="leading" id="nV8-ZO-vrX"/>
+                <constraint firstAttribute="trailing" secondItem="9yl-UG-tEc" secondAttribute="trailing" id="ysA-Em-8zc"/>
             </constraints>
             <point key="canvasLocation" x="493" y="865"/>
         </view>
