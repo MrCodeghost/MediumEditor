@@ -1,14 +1,14 @@
 //
-//  MediumEditorViewController.swift
+//  MediumEditorView.swift
 //  MediumEditor
 //
-//  Created by Matthew Bain on 23/05/2015.
+//  Created by Matthew Bain on 02/06/2015.
 //  Copyright (c) 2015 Codeghost Ltd. All rights reserved.
 //
 
 import UIKit
 
-@IBDesignable class MediumEditorViewController: UIViewController, UITextViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIAlertViewDelegate {
+@IBDesignable class MediumEditorView: UIView, UITextViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIAlertViewDelegate {
     
     @IBOutlet weak var topToolbar: UIToolbar!
     @IBOutlet weak var bottomToolbar: UIToolbar!
@@ -21,9 +21,25 @@ import UIKit
     
     var delegate: MediumEditorViewControllerDelegate?
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    /*
+    // Only override drawRect: if you perform custom drawing.
+    // An empty implementation adversely affects performance during animation.
+    override func drawRect(rect: CGRect) {
+    // Drawing code
+    }
+    */
+    var view: UIView!
+    
+    override func layoutSubviews() {
+        textView.frame = textViewPlaceholder.frame
+    }
+    
+    func xibSetup() {
+        view = loadViewFromNib()
+        view.frame = bounds
+        view.autoresizingMask = UIViewAutoresizing.FlexibleWidth | UIViewAutoresizing.FlexibleHeight
+        addSubview(view)
+        
         createTextView()
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("keyboardWillShow:"), name: UIKeyboardWillShowNotification, object: nil)
@@ -31,14 +47,24 @@ import UIKit
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "preferredContentSizeChanged:",
             name: UIContentSizeCategoryDidChangeNotification, object: nil)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func loadViewFromNib() -> UIView {
+        let bundle = NSBundle(forClass: self.dynamicType)
+        let nib = UINib(nibName: "MediumEditorView", bundle: bundle)
+        
+        // Assumes UIView is top level and only object in CustomView.xib file
+        let view = nib.instantiateWithOwner(self, options: nil)[0] as! UIView
+        return view
     }
     
-    override func viewDidLayoutSubviews() {
-        textView.frame = textViewPlaceholder.frame
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        xibSetup()
+    }
+    
+    required init(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        xibSetup()
     }
     
     func textViewDidChangeSelection(textView: UITextView) {
@@ -57,9 +83,9 @@ import UIKit
     func createTextView() {
         textStorage = AttributedTextStorage()
         
-        let newTextViewRect = textViewPlaceholder.frame
+        let newTextViewRect = view.bounds
         let layoutManager = NSLayoutManager()
-        let containerSize = CGSize(width: newTextViewRect.width, height: newTextViewRect.height)
+        let containerSize = CGSize(width: newTextViewRect.width, height: CGFloat.max)
         let container = NSTextContainer(size: containerSize)
         container.widthTracksTextView = true
         layoutManager.addTextContainer(container)
@@ -67,15 +93,15 @@ import UIKit
         
         textView = UITextView(frame: newTextViewRect, textContainer: container)
         textView.delegate = self
-
-        view.addSubview(textView)
+        
+        addSubview(textView)
     }
-
+    
     func keyboardWillShow(sender: NSNotification) {
         let info: NSDictionary = sender.userInfo!
         let value: NSValue = info.valueForKey(UIKeyboardFrameBeginUserInfoKey) as! NSValue
         let keyboardSize: CGSize = value.CGRectValue().size
-
+        
         self.view.frame = CGRectMake(0, 0, self.view.bounds.width, self.view.bounds.height - keyboardSize.height)
     }
     
@@ -89,7 +115,7 @@ import UIKit
     func preferredContentSizeChanged(sender: NSNotification) {
         
     }
-
+    
     func forceRedraw() {
         textStorage.performReplacementsForRange(self.textView.selectedRange)
         let cursorPos = self.textView.selectedTextRange
@@ -112,7 +138,7 @@ import UIKit
         }
         forceRedraw()
     }
-
+    
     @IBAction func toggleQuote(sender: AnyObject) {
         let store = textView.textStorage as! AttributedTextStorage
         if store.indent == 0.0 {
@@ -135,7 +161,9 @@ import UIKit
         picker.delegate = self
         picker.allowsEditing = true
         picker.sourceType = UIImagePickerControllerSourceType.PhotoLibrary
-        presentViewController(picker, animated: true, completion: nil)
+        
+        let controller = self.nextResponder() as! UIViewController
+        controller.presentViewController(picker, animated: true, completion: nil)
     }
     
     func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
@@ -151,7 +179,8 @@ import UIKit
         newString.appendAttributedString(NSAttributedString(string: "\n"))
         textView.attributedText = newString
         
-        dismissViewControllerAnimated(true, completion: nil)
+        let controller = self.nextResponder() as! UIViewController
+        controller.dismissViewControllerAnimated(true, completion: nil)
     }
     
     @IBAction func dismissKeyboard(sender: AnyObject) {
@@ -159,7 +188,8 @@ import UIKit
     }
     
     func imagePickerControllerDidCancel(picker: UIImagePickerController) {
-        dismissViewControllerAnimated(true, completion: nil)
+        let controller = self.nextResponder() as! UIViewController
+        controller.dismissViewControllerAnimated(true, completion: nil)
     }
     
     @IBAction func insertLink(sender: AnyObject) {
@@ -179,7 +209,7 @@ import UIKit
             let text = alertView.textFieldAtIndex(0)!.text
             var url = NSURL(string: text)
             if(url?.scheme == nil) {
-               url = NSURL(string: "http://" + text)
+                url = NSURL(string: "http://" + text)
             }
             if(url != nil && url!.host != nil && url!.scheme != nil) {
                 if(textView.selectedRange.length == 0) {
@@ -198,10 +228,9 @@ import UIKit
     @IBAction func cancel(sender: AnyObject) {
         delegate?.cancel(textView.attributedText)
     }
-
+    
     @IBAction func publish(sender: AnyObject) {
         delegate?.publish(textView.attributedText)
     }
     
 }
-

@@ -9,12 +9,25 @@
 /* Begin PBXBuildFile section */
 		094AAA791B1202E600079CC9 /* AttributedTextStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094AAA781B1202E600079CC9 /* AttributedTextStorage.swift */; };
 		094AAA801B1B65D700079CC9 /* MediumEditorViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094AAA7F1B1B65D700079CC9 /* MediumEditorViewControllerDelegate.swift */; };
+		094AAA9C1B1BAA6B00079CC9 /* MediumEditorViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094AAA7F1B1B65D700079CC9 /* MediumEditorViewControllerDelegate.swift */; };
+		094AAA9D1B1BAA6B00079CC9 /* MediumEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0994EB631B110BBF006E4A44 /* MediumEditorViewController.swift */; };
+		094AAA9E1B1BAA6B00079CC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0994EB611B110BBF006E4A44 /* AppDelegate.swift */; };
+		094AAA9F1B1BAA6B00079CC9 /* AttributedTextStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094AAA781B1202E600079CC9 /* AttributedTextStorage.swift */; };
+		094AAAA31B1BAA6B00079CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0994EB651B110BBF006E4A44 /* Main.storyboard */; };
+		094AAAA51B1BAA6B00079CC9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0994EB6A1B110BBF006E4A44 /* LaunchScreen.xib */; };
+		094AAAA61B1BAA6B00079CC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0994EB681B110BBF006E4A44 /* Images.xcassets */; };
+		094AAAAD1B1BAAA800079CC9 /* Demo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094AAAAC1B1BAAA800079CC9 /* Demo.storyboard */; };
 		0994EB621B110BBF006E4A44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0994EB611B110BBF006E4A44 /* AppDelegate.swift */; };
 		0994EB641B110BBF006E4A44 /* MediumEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0994EB631B110BBF006E4A44 /* MediumEditorViewController.swift */; };
 		0994EB671B110BBF006E4A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0994EB651B110BBF006E4A44 /* Main.storyboard */; };
 		0994EB691B110BBF006E4A44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0994EB681B110BBF006E4A44 /* Images.xcassets */; };
 		0994EB6C1B110BBF006E4A44 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0994EB6A1B110BBF006E4A44 /* LaunchScreen.xib */; };
 		0994EB781B110BBF006E4A44 /* MediumEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0994EB771B110BBF006E4A44 /* MediumEditorTests.swift */; };
+		09B178371B1E52E90035D00C /* MediumEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B178361B1E52E90035D00C /* MediumEditorView.swift */; };
+		09B178381B1E52E90035D00C /* MediumEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B178361B1E52E90035D00C /* MediumEditorView.swift */; };
+		09B1783A1B1E52FA0035D00C /* MediumEditorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09B178391B1E52FA0035D00C /* MediumEditorView.xib */; };
+		09B1783B1B1E52FA0035D00C /* MediumEditorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09B178391B1E52FA0035D00C /* MediumEditorView.xib */; };
+		09B1783C1B1E53D40035D00C /* MediumEditorView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 09B178391B1E52FA0035D00C /* MediumEditorView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +43,9 @@
 /* Begin PBXFileReference section */
 		094AAA781B1202E600079CC9 /* AttributedTextStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedTextStorage.swift; sourceTree = "<group>"; };
 		094AAA7F1B1B65D700079CC9 /* MediumEditorViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumEditorViewControllerDelegate.swift; sourceTree = "<group>"; };
+		094AAAAA1B1BAA6B00079CC9 /* MediumEditorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediumEditorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		094AAAAB1B1BAA6B00079CC9 /* MediumEditorDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "MediumEditorDemo-Info.plist"; path = "/Users/matthewbain/Dropbox/Codeghost/Development/git/atlassian/MediumEditor/MediumEditor/MediumEditorDemo-Info.plist"; sourceTree = "<absolute>"; };
+		094AAAAC1B1BAAA800079CC9 /* Demo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Demo.storyboard; sourceTree = "<group>"; };
 		0994EB5C1B110BBF006E4A44 /* MediumEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediumEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0994EB601B110BBF006E4A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0994EB611B110BBF006E4A44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,9 +56,18 @@
 		0994EB711B110BBF006E4A44 /* MediumEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediumEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0994EB761B110BBF006E4A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0994EB771B110BBF006E4A44 /* MediumEditorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumEditorTests.swift; sourceTree = "<group>"; };
+		09B178361B1E52E90035D00C /* MediumEditorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MediumEditorView.swift; sourceTree = "<group>"; };
+		09B178391B1E52FA0035D00C /* MediumEditorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediumEditorView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		094AAAA11B1BAA6B00079CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0994EB591B110BBF006E4A44 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -60,12 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		094AAA911B1B8ABF00079CC9 /* MediumEditorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				094AAAAC1B1BAAA800079CC9 /* Demo.storyboard */,
+			);
+			name = MediumEditorDemo;
+			sourceTree = "<group>";
+		};
 		0994EB531B110BBF006E4A44 = {
 			isa = PBXGroup;
 			children = (
 				0994EB5E1B110BBF006E4A44 /* MediumEditor */,
 				0994EB741B110BBF006E4A44 /* MediumEditorTests */,
+				094AAA911B1B8ABF00079CC9 /* MediumEditorDemo */,
 				0994EB5D1B110BBF006E4A44 /* Products */,
+				094AAAAB1B1BAA6B00079CC9 /* MediumEditorDemo-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +109,7 @@
 			children = (
 				0994EB5C1B110BBF006E4A44 /* MediumEditor.app */,
 				0994EB711B110BBF006E4A44 /* MediumEditorTests.xctest */,
+				094AAAAA1B1BAA6B00079CC9 /* MediumEditorDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +125,8 @@
 				0994EB681B110BBF006E4A44 /* Images.xcassets */,
 				0994EB6A1B110BBF006E4A44 /* LaunchScreen.xib */,
 				0994EB5F1B110BBF006E4A44 /* Supporting Files */,
+				09B178361B1E52E90035D00C /* MediumEditorView.swift */,
+				09B178391B1E52FA0035D00C /* MediumEditorView.xib */,
 			);
 			path = MediumEditor;
 			sourceTree = "<group>";
@@ -121,6 +159,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		094AAA9A1B1BAA6B00079CC9 /* MediumEditorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 094AAAA71B1BAA6B00079CC9 /* Build configuration list for PBXNativeTarget "MediumEditorDemo" */;
+			buildPhases = (
+				094AAA9B1B1BAA6B00079CC9 /* Sources */,
+				094AAAA11B1BAA6B00079CC9 /* Frameworks */,
+				094AAAA21B1BAA6B00079CC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediumEditorDemo;
+			productName = MediumEditor;
+			productReference = 094AAAAA1B1BAA6B00079CC9 /* MediumEditorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		0994EB5B1B110BBF006E4A44 /* MediumEditor */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0994EB7B1B110BBF006E4A44 /* Build configuration list for PBXNativeTarget "MediumEditor" */;
@@ -189,15 +244,29 @@
 			targets = (
 				0994EB5B1B110BBF006E4A44 /* MediumEditor */,
 				0994EB701B110BBF006E4A44 /* MediumEditorTests */,
+				094AAA9A1B1BAA6B00079CC9 /* MediumEditorDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		094AAAA21B1BAA6B00079CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094AAAA31B1BAA6B00079CC9 /* Main.storyboard in Resources */,
+				094AAAAD1B1BAAA800079CC9 /* Demo.storyboard in Resources */,
+				094AAAA51B1BAA6B00079CC9 /* LaunchScreen.xib in Resources */,
+				09B1783B1B1E52FA0035D00C /* MediumEditorView.xib in Resources */,
+				094AAAA61B1BAA6B00079CC9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0994EB5A1B110BBF006E4A44 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09B1783A1B1E52FA0035D00C /* MediumEditorView.xib in Resources */,
 				0994EB671B110BBF006E4A44 /* Main.storyboard in Resources */,
 				0994EB6C1B110BBF006E4A44 /* LaunchScreen.xib in Resources */,
 				0994EB691B110BBF006E4A44 /* Images.xcassets in Resources */,
@@ -214,6 +283,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		094AAA9B1B1BAA6B00079CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B1783C1B1E53D40035D00C /* MediumEditorView.xib in Sources */,
+				094AAA9C1B1BAA6B00079CC9 /* MediumEditorViewControllerDelegate.swift in Sources */,
+				094AAA9D1B1BAA6B00079CC9 /* MediumEditorViewController.swift in Sources */,
+				094AAA9E1B1BAA6B00079CC9 /* AppDelegate.swift in Sources */,
+				094AAA9F1B1BAA6B00079CC9 /* AttributedTextStorage.swift in Sources */,
+				09B178381B1E52E90035D00C /* MediumEditorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0994EB581B110BBF006E4A44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -222,6 +304,7 @@
 				0994EB641B110BBF006E4A44 /* MediumEditorViewController.swift in Sources */,
 				0994EB621B110BBF006E4A44 /* AppDelegate.swift in Sources */,
 				094AAA791B1202E600079CC9 /* AttributedTextStorage.swift in Sources */,
+				09B178371B1E52E90035D00C /* MediumEditorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +346,26 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		094AAAA81B1BAA6B00079CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MediumEditorDemo-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = MediumEditorDemo;
+			};
+			name = Debug;
+		};
+		094AAAA91B1BAA6B00079CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "MediumEditorDemo-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = MediumEditorDemo;
+			};
+			name = Release;
+		};
 		0994EB791B110BBF006E4A44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -403,6 +506,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		094AAAA71B1BAA6B00079CC9 /* Build configuration list for PBXNativeTarget "MediumEditorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				094AAAA81B1BAA6B00079CC9 /* Debug */,
+				094AAAA91B1BAA6B00079CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		0994EB571B110BBF006E4A44 /* Build configuration list for PBXProject "MediumEditor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
