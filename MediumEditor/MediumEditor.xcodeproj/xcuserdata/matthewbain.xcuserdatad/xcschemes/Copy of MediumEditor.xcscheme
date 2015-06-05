@@ -56,9 +56,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0994EB5B1B110BBF006E4A44"
-            BuildableName = "MediumEditor.app"
-            BlueprintName = "MediumEditor"
+            BlueprintIdentifier = "094AAA9A1B1BAA6B00079CC9"
+            BuildableName = "MediumEditorDemo.app"
+            BlueprintName = "MediumEditorDemo"
             ReferencedContainer = "container:MediumEditor.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -76,9 +76,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0994EB5B1B110BBF006E4A44"
-            BuildableName = "MediumEditor.app"
-            BlueprintName = "MediumEditor"
+            BlueprintIdentifier = "094AAA9A1B1BAA6B00079CC9"
+            BuildableName = "MediumEditorDemo.app"
+            BlueprintName = "MediumEditorDemo"
             ReferencedContainer = "container:MediumEditor.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

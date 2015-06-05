@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Copy of MediumEditor.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>MediumEditor.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>094AAA811B1B89BF00079CC9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>094AAA9A1B1BAA6B00079CC9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0994EB5B1B110BBF006E4A44</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0994EB701B110BBF006E4A44</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
