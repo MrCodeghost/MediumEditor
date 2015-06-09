@@ -12,6 +12,7 @@
 		094AAA9E1B1BAA6B00079CC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0994EB611B110BBF006E4A44 /* AppDelegate.swift */; };
 		094AAA9F1B1BAA6B00079CC9 /* AttributedTextStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094AAA781B1202E600079CC9 /* AttributedTextStorage.swift */; };
 		094AAAA61B1BAA6B00079CC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0994EB681B110BBF006E4A44 /* Images.xcassets */; };
+		09771E731B270E3300DCD007 /* Demo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 090096591B21A867001C608E /* Demo.storyboard */; };
 		0994EB781B110BBF006E4A44 /* MediumEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0994EB771B110BBF006E4A44 /* MediumEditorTests.swift */; };
 		09B178381B1E52E90035D00C /* MediumEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B178361B1E52E90035D00C /* MediumEditorView.swift */; };
 		09B1783B1B1E52FA0035D00C /* MediumEditorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09B178391B1E52FA0035D00C /* MediumEditorView.xib */; };
@@ -197,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09771E731B270E3300DCD007 /* Demo.storyboard in Resources */,
 				09B1783B1B1E52FA0035D00C /* MediumEditorView.xib in Resources */,
 				094AAAA61B1BAA6B00079CC9 /* Images.xcassets in Resources */,
 			);
