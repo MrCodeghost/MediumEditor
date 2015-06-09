@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MediumEditor/AttributedTextStorage.swift"
-            timestampString = "454696655.641487"
+            timestampString = "455544186.657574"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "78"
@@ -106,11 +106,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MediumEditor/MediumEditorView.swift"
-            timestampString = "455059148.594951"
+            timestampString = "455192995.533965"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "loadViewFromNib()"
             landmarkType = "5">
          </BreakpointContent>
@@ -138,12 +138,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MediumEditor/MediumEditorView.swift"
-            timestampString = "455059528.191356"
+            timestampString = "455542766.901207"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
             landmarkName = "keyboardWillShow(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MediumEditor/MediumEditorView.swift"
+            timestampString = "455192528.626792"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "layoutSubviews()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
