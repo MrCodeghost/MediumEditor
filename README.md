@@ -6,10 +6,6 @@ MediumEditor is an attempt to replicate that interface control for those with si
 
 ![screenshot.png](https://bitbucket.org/repo/jrdda7/images/1443621013-screenshot.png)
 
-### How do I get set up? ###
-
-I'll be looking to setup MediumEditor as a Cocoapod, but in the meantime please just download the source and include link to your own projects.
-
 ### Thanks ###
 
 Thanks to Gabriel Hauber for his [article](http://www.raywenderlich.com/77092/text-kit-tutorial-swift) on Text Kit at [raywenderlich.com](http://www.raywenderlich.com/) which made creating this control a simple experience.
